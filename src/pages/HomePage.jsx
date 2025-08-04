@@ -461,7 +461,7 @@ function HomePage() {
                 <CardMedia
                   component="img"
                   height="250px"
-                  image={note.imageUrl || "/src/assets/default.jpg"}
+                  image={note.imageUrl || "/public/default.jpg"}
                   sx={{ borderTopLeftRadius: 12, borderTopRightRadius: 12 }}
                   alt={note.title || "Plant image"}
                 />
