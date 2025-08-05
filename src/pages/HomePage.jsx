@@ -82,7 +82,7 @@ function HomePage() {
   // update isWater to show alert button if needed
   useEffect(() => {
     let hasChanged = false;
-    const today = dayjs(Date.now).startOf("date");
+    const today = dayjs(Date.now()).startOf("date");
     const updatedNotes = notes.map((note) => {
       note.isWater = false;
       note.isFertilizer = false;
