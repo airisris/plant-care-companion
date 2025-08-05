@@ -168,7 +168,6 @@ function AddPlantPage() {
           margin="normal"
           value={species}
           onChange={(e) => setSpecies(e.target.value)}
-          required
         />
         <TextField
           label="Location (Optional)"
@@ -177,7 +176,6 @@ function AddPlantPage() {
           margin="normal"
           value={location}
           onChange={(e) => setLocation(e.target.value)}
-          required
         />
 
         <Box sx={{ display: "flex" }}>
